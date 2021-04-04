@@ -28,5 +28,3 @@ Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi 
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
-
-- Project1: ![project1](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/git/odev1/figures/markdown.png)
