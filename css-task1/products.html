@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Ödevi 1 | Ürünlerimiz</title>
+    <style>
+        #products > ul{
+            list-style-type: none;
+        }
+        #products > ul li{
+            padding: 10px;
+        }
+        .items{
+            margin-top: 10px;
+            transition: transform .2s; /* Animation */
+        }
+        .items:hover{
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MÜZİK DÜKKANIM</h1>
+    </header>
+    
+    <nav>
+        <div class="navbar">
+            <a href="main.html">Anasayfa</a>
+            <a href="products.html">Ürünlerimiz</a>
+            <a href="about.html">Hakkımızda</a>
+        </div>
+    </nav>
+    <h2>Ürünlerimiz</h2>
+    <div id="products">
+        <ul>
+            <li><img class="items" src="../img/jackson-js.jpg" alt="Jackson JS Gitar"></li><br>
+            Armoni Kalimba <b>30$</b>
+            <li><img class="items" src="../img/pdp-drum.jpg" alt="PDP Bateri"></li><br>
+            PDP Bateri 2<b>40$</b>
+            <li><img class="items" src="../img/bamboo-flute.jpg" alt="Bambu Flüt"></li><br>
+            Bambu Flüt <b>40$</b>
+            <li><img class="items" src="../img/kalimba.jpg" alt="Armoni Kalimba"></li><br>
+            Armoni Kalimba <b>30$</b>
+        </ul>
+    </div>
+    
+</body>
+</html>

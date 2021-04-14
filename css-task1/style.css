@@ -1,0 +1,17 @@
+body *{
+    text-align: center;
+}
+.navbar > a{
+    margin-right: 7px;
+    font-size: 1.2em;
+}
+/*https://colorhunt.co/*/
+h1{
+    color:crimson;
+}
+h2{
+    color:#5eaaa8;
+}
+h3, h4{
+    color:#d65c58;
+}

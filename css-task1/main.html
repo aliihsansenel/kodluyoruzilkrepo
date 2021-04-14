@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Ödevi 1 | Anasayfa</title>
+    <style>
+        #product-list-container{
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 0;
+            /*background-color: darkblue;*/
+        }
+        
+        li {
+            text-align: left;  
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: crimson;">MÜZİK DÜKKANIM</h1>
+    </header>
+    
+    <nav>
+        <div class="navbar">
+            <a href="main.html">Anasayfa</a>
+            <a href="products.html">Ürünlerimiz</a>
+            <a href="about.html">Hakkımızda</a>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <h2>Anasayfa</h2>
+        <p>Müzik Dükkanım sitemize hoşgeldiniz, bu sitede çeşitli müzik aletlerini bulabilirsiniz. Uygun fiyatlarımız ve
+            kaliteli ürünlerimiz için 
+            <a href="products.html">Ürünlerimiz</a>
+            sayfasını ziyaret edebilirsiniz.</p>
+        
+        <h4 style="margin-bottom: 0;">Sitemizde Bulunan Müzik Aletleri</h4>
+        <div id="product-list-container">
+            <ul style="list-style-position: inside;">
+                <li>Elektro Gitar</li>
+                <li>Bateri</li>
+                <li>Flüt</li>
+                <li>Kalimba</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
