@@ -1,0 +1,13 @@
+body{
+    background-color: #E9ECEF;
+}
+.price-tag{
+    font-size: 0.75em;
+}
+.product-header{
+    color: #8c398f;
+    font-weight: 500;
+}
+.header-prod{
+    color: #813685;
+}
